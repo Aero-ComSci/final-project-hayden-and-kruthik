@@ -11,4 +11,3 @@ def print_list():
     packinglist.append("Sunscreen")
     packinglist.append("Flip-flops")
     packinglist.append(f"Towels for {question_1} people")
-'''
