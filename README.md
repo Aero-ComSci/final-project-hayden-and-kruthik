@@ -4,10 +4,21 @@
 Description: This program can be used by people of all ages and genders. It can be used as a basic checklist for a day at the beach or a vacation. It automates making a checklist based on the activites you want to do. 
 
 ```
-def print_list():
     packinglist = []
     packinglist.append("Sunglasses")
     packinglist.append("Beach hat")
     packinglist.append("Sunscreen")
     packinglist.append("Flip-flops")
     packinglist.append(f"Towels for {question_1} people")
+
+```
+while True:
+  question_1 = input("How many people are going to the beach? ")
+  if question_1.isdigit() and int(question_1) > 0:
+      question_1 = int(question_1)
+      break
+  else:
+      print("Please enter a valid positive number.")
+
+```
+def print_list():
