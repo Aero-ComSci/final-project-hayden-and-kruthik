@@ -3,7 +3,8 @@
 
 Description: This program can be used by people of all ages and genders. It can be used as a basic checklist for a day at the beach or a vacation. It automates making a checklist based on the activites you want to do. 
 
-```def print_list():
+```
+def print_list():
     packinglist = []
     packinglist.append("Sunglasses")
     packinglist.append("Beach hat")
