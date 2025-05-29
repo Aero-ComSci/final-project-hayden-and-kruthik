@@ -1,5 +1,3 @@
-
-
 while True:
   question_1 = input("How many people are going to the beach? ")
   if question_1.isdigit() and int(question_1) > 0:
