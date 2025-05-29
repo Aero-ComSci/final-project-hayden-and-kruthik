@@ -11,8 +11,9 @@ Description: This program can be used by people of all ages and genders. It can 
     packinglist.append("Flip-flops")
     packinglist.append(f"Towels for {question_1} people")
 
+
 ```
-```while True:
+while True:
   question_1 = input("How many people are going to the beach? ")
   if question_1.isdigit() and int(question_1) > 0:
       question_1 = int(question_1)
@@ -20,5 +21,7 @@ Description: This program can be used by people of all ages and genders. It can 
   else:
       print("Please enter a valid positive number.")
 
+
 ```
 def print_list():
+```
